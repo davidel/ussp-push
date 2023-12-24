@@ -1,17 +1,19 @@
-/*
- * UNrooted.net example code
- *
- * Most of these functions are just rips from the Affix Bluetooth project OBEX
- * programs.  There are comments in the code about where the functions came
- * from and what if anything was changed.
- *
- * Throughout these functions I had to change the BTDEBUG and BTERROR macros to
- * printfs.  I could have just defined BTERROR and BTDEBUG, but I didn't for
- * some reason.. who knows.
- *
- * The original header comment specifying the copyright holder and the
- * requirements of the GPL are pasted below.
+/*    Copyright 2023 Davide Libenzi
+ * 
+ *    Licensed under the Apache License, Version 2.0 (the "License");
+ *    you may not use this file except in compliance with the License.
+ *    You may obtain a copy of the License at
+ * 
+ *        http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ *    Unless required by applicable law or agreed to in writing, software
+ *    distributed under the License is distributed on an "AS IS" BASIS,
+ *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *    See the License for the specific language governing permissions and
+ *    limitations under the License.
+ * 
  */
+
 
 /*
  * Original comment header block:
